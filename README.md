@@ -1,7 +1,7 @@
-# egg-ts接口开发脚手架
+# moba studio 基础框架  感谢开源项目 https://github.com/CB-ysx/egg-ts-base
 
 ## 介绍
-[egg+typescript搭建后端项目](http://codebear.cn/article?id=4wtB6uVZm6l2pVJbasAKRW)
+Moba Studio Project Base
 
 ## 功能
 - 支持自动配置路由（根据目录路径以及装饰器注入）
@@ -91,7 +91,7 @@ controller
         @GET('/index')
         test()      // 生成路由 '/index'
 
-``` 
+```
 
 ### 支持的装饰器
 @GET、@POST、@PUT、@DEL、@PATCH、@ALL
@@ -106,7 +106,7 @@ Headers           用于过滤headers
 -----------------
 以下是配合上面的装饰器使用，设置参数规则
 -----------------
-NotNull           
+NotNull
 Int
 Float
 Time
